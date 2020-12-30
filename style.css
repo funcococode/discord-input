@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.field {
+    width: 300px;
+    position: relative;
+}
+
+#co {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+    color: rgb(184, 184, 184);
+}
